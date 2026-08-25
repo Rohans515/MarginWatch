@@ -33,25 +33,31 @@ The dataset was self-cleaned prior to analysis: null values handled, duplicates 
 ## 📊 Dashboard
 
 **MarginWatch** is a 3-page interactive Power BI dashboard:
-- **Page 1 — Executive Overview:** KPI cards, profit by sub-category, segment split, top customers, interactive slicers
-- **Page 2 — Regional & Discount Deep-Dive:** State-level profit map with discount-band breakdown
-- **Page 3 — Forecast:** Revenue and Profit trend with built-in Power BI (ETS) forecasting and confidence intervals
+**Page 1 — Executive Overview:** KPI cards, profit by sub-category, segment split, top customers, interactive slicers
+![Page 1 - Executive Overview]("E:\ScreenShots\Page1.png")
 
-*(Add dashboard screenshots here — export each page as an image and place them in a `/screenshots` folder, then reference them like `![Page 1](./screenshots/page1.png)`)*
+**Page 2 — Regional & Discount Deep-Dive:** State-level profit map with discount-band breakdown
+![Page 2 - Regional Deep-Dive]("E:\ScreenShots\Page2.png")
+
+**Page 3 — Forecast:** Revenue and Profit trend with built-in Power BI (ETS) forecasting and confidence intervals
+![Page 3 - Forecast]("E:\ScreenShots\Page3.png")
+
+
+
 
 ## 📁 Repository Structure
 
 ```
 MarginWatch/
 ├── data/
-│   └── superstore_cleaned.csv
+│   └── Sample - cleaned Superstore.xlsx
 ├── notebooks/
 │   └── superstore_analysis.ipynb      # SQL + Pandas analysis
 ├── excel/
-│   └── superstore_analysis.xlsx       # PivotTable-based analysis
+│   └── Sample - cleaned Superstore.xlsx       # PivotTable-based analysis
 ├── powerbi/
 │   └── MarginWatch.pbix
-├── screenshots/
+├── ScreenShots/
 │   └── (dashboard page images)
 ├── Superstore_Insights_Summary.md
 └── README.md
