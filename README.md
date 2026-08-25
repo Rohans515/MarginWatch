@@ -34,13 +34,13 @@ The dataset was self-cleaned prior to analysis: null values handled, duplicates 
 
 **MarginWatch** is a 3-page interactive Power BI dashboard:
 **Page 1 — Executive Overview:** KPI cards, profit by sub-category, segment split, top customers, interactive slicers
-![Page 1 - Executive Overview]("E:\ScreenShots\Page1.png")
+![Page 1 - Executive Overview](./ScreenShots/Page1.png)
 
 **Page 2 — Regional & Discount Deep-Dive:** State-level profit map with discount-band breakdown
-![Page 2 - Regional Deep-Dive]("E:\ScreenShots\Page2.png")
+![Page 2 - Regional Deep-Dive](./ScreenShots/Page2.png)
 
 **Page 3 — Forecast:** Revenue and Profit trend with built-in Power BI (ETS) forecasting and confidence intervals
-![Page 3 - Forecast]("E:\ScreenShots\Page3.png")
+![Page 3 - Forecast](./ScreenShots/Page3.png)
 
 
 
